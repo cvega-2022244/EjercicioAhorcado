@@ -36,6 +36,7 @@ h1 {
 
 #letter-buttons {
     display: flex;
+    flex-wrap: wrap; /* Añadido para permitir el salto de línea */
     justify-content: center;
     margin-top: 20px;
 }
